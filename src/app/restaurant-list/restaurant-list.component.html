@@ -1,0 +1,9 @@
+<div class="restaurant-list">
+  <div *ngFor="let restaurant of restaurants" class="restaurant-card" (click)="viewDetails(restaurant.id)">
+    <img [src]="restaurant.image" alt="{{ restaurant.name }}">
+    <h2>{{ restaurant.name }}</h2>
+    <p>Rating: {{ restaurant.rating }}</p>
+    <p>Delivery Time: {{ restaurant.deliveryTime }}</p>
+  </div>
+</div>
+
