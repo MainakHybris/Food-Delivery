@@ -41,7 +41,7 @@ export class RestaurantDetailsComponent implements OnInit {
         menu: ['Cheeseburger', 'Veggie Burger'],
         address: '456 Burger Ave',
         contact: '555-5678',
-        reviews: ['Juicy burgers!', 'Great for vegetarians.']
+        reviews: ['Juicy burgers!', 'Delicious Food.']
       },
       
     ];

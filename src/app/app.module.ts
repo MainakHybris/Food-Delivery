@@ -4,7 +4,7 @@ import { BrowserModule } from '@angular/platform-browser';
 import { AppRoutingModule } from './app-routing.module';
 import { AppComponent } from './app.component';
 import { HeaderComponent } from './header/header.component';
-import { HomeComponent } from './home/home.component';
+//import { HomeComponent } from './home/home.component';
 import { RestaurantListComponent } from './restaurant-list/restaurant-list.component';
 import { RestaurantDetailsComponent } from './restaurant-details/restaurant-details.component';
 import { FoodPageComponent } from './food-page/food-page.component';
@@ -16,7 +16,6 @@ import { OrderComponent } from './order/order.component';
   declarations: [
     AppComponent,
     HeaderComponent,
-    HomeComponent,
     RestaurantListComponent,
     RestaurantDetailsComponent,
     FoodPageComponent,
