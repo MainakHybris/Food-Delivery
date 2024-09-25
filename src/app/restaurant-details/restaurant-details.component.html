@@ -3,14 +3,17 @@
   <span class="header">  
   <h1>{{ restaurant.name }}</h1>
   </span>
-    <!-- <img [src]="restaurant.image" alt="{{ restaurant.name }}"> -->
     <p>Address : {{ restaurant.address }}</p>
     <p>Contact : {{ restaurant.contact }}</p>
-    <div *ngFor="let review of restaurant.reviews">
-      <p>{{ review }}</p>
-    </div>
+    <h2>Reviews:</h2>
+    <li *ngFor="let review of restaurant.reviews">
+      {{ review }}
+    </li>
   </div>
 
+  <div class="details">
+    <h2>Menu</h2>
+  </div>  
     <ul>
       <li *ngFor="let food of foods">
           <a routerLink="/food/{{food.id}}">
@@ -25,7 +28,8 @@
           </div>
           </a>
       </li>
-  </ul>
-  </div>
+    </ul>
+  
+</div>
 
   
